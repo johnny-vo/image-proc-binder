@@ -1,7 +1,7 @@
-name: image-proccessing
-dependecies:
-  - python=3.10
+name: particle-sensing
+dependencies:
+  - python
+  - matplotlib>=1.5
   - numpy
-  - matplotlib
   - opencv-python
   - pydicom
