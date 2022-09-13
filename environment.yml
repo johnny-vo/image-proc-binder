@@ -1,6 +1,4 @@
 name: image-proccessing
-channels:
-  - conda-forge
 dependecies:
   - python=3.10
   - numpy
