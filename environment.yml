@@ -3,5 +3,5 @@ dependencies:
   - python
   - matplotlib>=1.5
   - numpy
-  - opencv-python
+  - opencv
   - pydicom
