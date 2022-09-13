@@ -1,5 +1,5 @@
 # Introduction Image-Processing with Python
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnny-vo/image-proc-binder/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/johnny-vo/image-proc-binder/main?labpath=notebooks%2Findex.ipynb)
 
 
 
