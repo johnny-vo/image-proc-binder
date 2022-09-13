@@ -1,0 +1,11 @@
+name: image-proccessing
+channels:
+  - conda-forge
+dependecies:
+  - python=3.10
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - opencv-python
+    - pydicom
