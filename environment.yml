@@ -1,7 +1,9 @@
-name: particle-sensing
+name: image-proc
 dependencies:
   - python
-  - matplotlib>=1.5
-  - numpy
-  - opencv
-  - pydicom
+  - pip
+  - pip:
+    - matplotlib
+    - numpy
+    - opencv-contrib-python
+    - pydicom
