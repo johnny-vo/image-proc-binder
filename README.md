@@ -5,7 +5,7 @@ This jupyter-notebook will be based on the lecture image processing M70. Python 
 In the following course the students should be able to calculate and evaluate certain parameters of images. They should learn to implement different methods for image processing in the spatial and frequency space. 
 This includes e.g. methods for denoising, edge detection and compression. 
 
-## Setting up environment on local machine 
+## Setting up Environment on Local Machine 
 ### Installation of Conda on macOS
 1. Open up Terminal and paste in Shell Prompt `xcode-select --install`
 2. After Installation of the Command Line Tool for Xcode paste in the same Shell Prompt `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
@@ -24,8 +24,11 @@ For further questions follow this [site](https://medium.com/@GalarnykMichael/ins
 ### Setup Conda Environment 
 1. Clone this repository either via `git clone` or downloading this Repo as zip-file
 2. Open up Terminal (macOS) or Anaconda Prompt (Windows) and change Directory to the cloned Repo
-3. Paste `conda env create -f environment.yml` into the Shell Prompt to create the environment
-4. After Installation to activate the Environment paste `conda activate image-proc
+3. Paste `conda env create -f environment.yml` into the Shell Prompt to create the Environment
+4. Install ipykernel into Conda with `conda install -c anaconda ipykernel`
+5. After Installation of ipykernel type `python -m ipykernel install --user --name=image-proc` into the Shell Prompt 
+
+
 
 
 
