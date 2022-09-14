@@ -7,12 +7,12 @@ This includes e.g. methods for denoising, edge detection and compression.
 
 ## Setting up environment on local machine 
 ### Installation of Conda on macOS
-1. Open up Terminal and paste in Shell Prompt 'xcode-select --install'
-2. After Installation of the Command Line Tool for Xcode paste in the same Shell Prompt '/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"'
+1. Open up Terminal and paste in Shell Prompt `xcode-select --install`
+2. After Installation of the Command Line Tool for Xcode paste in the same Shell Prompt `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 3. Follow the Instructions of the brew Installer
-4. Re-open the Terminal and paste 'brew install --cask anaconda'
-5. Paste in Shell Prompt 'export PATH="/usr/local/anaconda3/bin:$PATH"'
-6. To make the export permanent paste in Shell Prompt 'source ~/.zshrc'
+4. Re-open the Terminal and paste `brew install --cask anaconda`
+5. Paste in Shell Prompt `export PATH="/usr/local/anaconda3/bin:$PATH"`
+6. To make the export permanent paste in Shell Prompt `source ~/.zshrc`
 
 
 ### Installation of Conda on Windows
@@ -22,10 +22,10 @@ This includes e.g. methods for denoising, edge detection and compression.
 For further questions follow this [site](https://medium.com/@GalarnykMichael/install-python-anaconda-on-windows-2020-f8e188f9a63d)
 
 ### Setup Conda Environment 
-1. Clone this repository either via 'git clone' or downloading this Repo as zip-file
+1. Clone this repository either via `git clone` or downloading this Repo as zip-file
 2. Open up Terminal (macOS) or Anaconda Prompt (Windows) and change Directory to the cloned Repo
-3. Paste 'conda env create -f environment.yml' into the Shell Prompt to create the environment
-4. After Installation to activate the Environment paste 'conda activate image-proc'
+3. Paste `conda env create -f environment.yml` into the Shell Prompt to create the environment
+4. After Installation to activate the Environment paste `conda activate image-proc
 
 
 
