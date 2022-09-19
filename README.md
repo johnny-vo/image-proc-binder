@@ -25,8 +25,9 @@ For further questions follow this [site](https://medium.com/@GalarnykMichael/ins
 1. Clone this repository either via `git clone` or downloading this Repo as zip-file
 2. Open up Terminal (macOS) or Anaconda Prompt (Windows) and change Directory to the cloned Repo
 3. Paste `conda env create -f environment.yml` into the Shell Prompt to create the Environment
-4. Install ipykernel into Conda with `conda install -c anaconda ipykernel`
-5. After Installation of ipykernel type `python -m ipykernel install --user --name=image-proc` into the Shell Prompt 
+4. Activate the Conda Environment with `conda activate image-proc`
+5. Install ipykernel into Conda Environment with `conda install -c anaconda ipykernel`
+6. After Installation of ipykernel type `python -m ipykernel install --user --name=image-proc` into the Shell Prompt 
 
 
 
